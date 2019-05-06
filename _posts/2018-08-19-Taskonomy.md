@@ -10,6 +10,9 @@ tags:
     - study
     - Transfer Learning
 ---
+
+> 任务与任务之间是个图，特征与特征之间也可以是个图
+
 # CVPR 2018 Best Paper | 任务学： 揭开任务迁移学习的秘密
 
 ## Introduction

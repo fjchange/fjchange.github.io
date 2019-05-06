@@ -11,6 +11,8 @@ tags:
     - clothing recognition
 ---
 
+> 关于服装识别的文章
+
 # CVPR 2016： DeepFashion: Pwoering Robust Clothes Recognition and Retrieval with Rich Annotations (健壮有效的有大量标签的服装识别与检索)
 
 > Abstract：
