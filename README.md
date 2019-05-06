@@ -1,3 +1,6 @@
+# This blog is modified from Hux Blog. Thanks his nice work.
+
+
 # Hux Blog
 
 ### [View Live Hux Blog &rarr;](https://huangxuan.me)
