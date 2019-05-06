@@ -19,7 +19,7 @@ tags:
 
 ​	直觉告诉我们视觉任务之间存在着关联，但是这些关联是怎样的呢？这篇论文提出了一个完全通过计算的方法构建视觉任务的空间结构：
 
-![1530168742297](https://img-blog.csdn.net/20180713214558765?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2tpd2lfRnVuZw==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
+![](https://i.loli.net/2019/05/06/5ccfb7fea9ac0.png)
 
 > 一个有向图，节点为任务，每一条的权重作为任务间的关联度。
 
@@ -59,7 +59,7 @@ Taskonomy (任务学): 一个计算发现的有向图，能够捕获从任意给
 
 ### 2.大概流程：
 
-![1530171626328](https://img-blog.csdn.net/20180713214618599?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2tpd2lfRnVuZw==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
+![](https://i.loli.net/2019/05/06/5ccfb805b4e43.png)
 
 
 
@@ -77,7 +77,7 @@ Taskonomy (任务学): 一个计算发现的有向图，能够捕获从任意给
 
 1. #### 每一个特定任务的建模训练：
 
-![1530173681319](https://img-blog.csdn.net/2018071321462846?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2tpd2lfRnVuZw==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
+![](https://i.loli.net/2019/05/06/5ccfb80ff2287.png)
 
 对于每一个 _S_ 中的任务训练一个全监督的对于特定任务的网络。特定任务网络有一个编码器和解码器结构，编码器有足够的大小来提取特征，解码器有足够的能力来获得好的表现，但是相对于编码器而言会更小。
 
@@ -85,7 +85,7 @@ Taskonomy (任务学): 一个计算发现的有向图，能够捕获从任意给
 
 对于每一个源到目标任务，提出一个任务紧密程度的度量 D_s->t,
 
-![1530516874992](https://img-blog.csdn.net/20180713214636509?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2tpd2lfRnVuZw==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
+![](https://i.loli.net/2019/05/06/5ccfb81be2241.png)
 
 > D: dataset
 >
@@ -119,7 +119,7 @@ _高阶迁移_：当是采用多个任务迁移到一个任务的时候，容易
 
 3.3 借鉴AHP中的方法，得到比较转移矩阵的最大特征值对应的特征向量，该特征向量stack得出的就是对于每一个任务其他任务提供信息的能力的矩阵。
 
-![1530517274108](https://img-blog.csdn.net/20180713214801808?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2tpd2lfRnVuZw==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
+![](https://i.loli.net/2019/05/06/5ccfb82422ff8.png)
 
 4. #### 计算全局的任务迁移能力图
 
@@ -127,7 +127,7 @@ _高阶迁移_：当是采用多个任务迁移到一个任务的时候，容易
 
 这里实际上就是在第3步计算得出的图中作子图选择，挑选出合适的子图作为输出
 
-![1530523423124](https://img-blog.csdn.net/20180713214814760?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2tpd2lfRnVuZw==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
+![](https://i.loli.net/2019/05/06/5ccfb82b3381f.png)
 
 然后对于定义一些参数：
 
@@ -141,9 +141,9 @@ _高阶迁移_：当是采用多个任务迁移到一个任务的时候，容易
 
 对于0-1整数规划，实际上被一个向量x参数化，每一个转移的边和任务都被表示成一个0-1整数，然后这向量确定了哪些源和哪些迁移是被选择的。x表示的源和边，如果为1就被选择了。
 
-![1530523423124](https://img-blog.csdn.net/20180713214822664?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2tpd2lfRnVuZw==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
+![](https://i.loli.net/2019/05/06/5ccfb8370ebe2.png)
 
-![1531489053675](https://img-blog.csdn.net/20180713215213946?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2tpd2lfRnVuZw==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
+![](https://i.loli.net/2019/05/06/5ccfb8427dcca.png)
 
 c作为表现评估系数，然后做的就是是受限于三个条件，实现最大化表现。对于c中的每一个元素，用户特定的目标任务重要程度$r_i$和每一个的独立的AHP表现$p_i$ ，$c_i$是两者的乘积。
 
@@ -155,27 +155,25 @@ A为三个受限条件：
 
 限制条件的数学表达：
 
-![1531489089774](https://img-blog.csdn.net/20180713215244571?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2tpd2lfRnVuZw==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
+![](https://i.loli.net/2019/05/06/5ccfb84934be5.png)
 
 
 
 ## Result
 
-![1531489146275](https://img-blog.csdn.net/20180713215255851?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2tpd2lfRnVuZw==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
+![](https://i.loli.net/2019/05/06/5ccfb8546024b.png)
 
 > 定义：Win Rate：test set中前者比后者效果好的比例。（胜率当然在0-1之间
 > 迁移获利 (Gain) : 如果我们不进行迁移学习，我们只能基于少量的数据从零学习。迁移获利是指迁移学习相较于从零学习的胜率（见Ordinal Normalization部分）。
 > 迁移质量 (Quality) : 用少量数据迁移学习相较于用大量数据从零学习的胜率
 
-![1531489169041](https://img-blog.csdn.net/2018071321531946?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2tpd2lfRnVuZw==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
+![](https://i.loli.net/2019/05/06/5ccfb85f3b6d7.png)
 
-![1531489219752](https://img-blog.csdn.net/2018071321534147?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2tpd2lfRnVuZw==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
+![](https://i.loli.net/2019/05/06/5ccfb86cc5f82.png)
 
-![1531489234563](https://img-blog.csdn.net/20180713215353442?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2tpd2lfRnVuZw==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
+![](https://i.loli.net/2019/05/06/5ccfb876ec4a1.png)
 
-![1531489252094](ahttps://img-blog.csdn.net/20180713215409520?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2tpd2lfRnVuZw==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70
-
-[课件下载](https://so-link.org/seminar/2018-07-06/Taskonomy.pptx)
+![](https://i.loli.net/2019/05/06/5ccfb881ca081.png)[课件下载](https://so-link.org/seminar/2018-07-06/Taskonomy.pptx)
 
 ## Reference
 

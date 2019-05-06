@@ -73,13 +73,12 @@ Unsupervised 和 Clean都难以解决下面这样的异常点：
 常用的数据集来自于监控摄像头，这样特点就是，场景是固定的，变化的只是前景，包括有行人的移动，交通的变化。所以这些异常就是主要在于表面上可见的变化和动作的变化。
 
 数据集，现有的数据集主要 在于对表观异常和不自然的运动异常，异常类型相对受限
-![上面是经典数据集，下面红框是新数据集 ShanghaiTech](https://img-blog.csdnimg.cn/201811201530516.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2tpd2lfRnVuZw==,size_16,color_FFFFFF,t_70)
-上面是经典数据集，下面红框是新数据集 
+![](https://i.loli.net/2019/05/06/5ccfb89f25bf9.png)上面是经典数据集，下面红框是新数据集 
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20181120153303699.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2tpd2lfRnVuZw==,size_16,color_FFFFFF,t_70)------
+![](https://i.loli.net/2019/05/06/5ccfb8a9169ca.png)------
 
 UCSD数据集：一个主体为行人的数据集。异常包括有异常物体的出现：例如骑自行车者和轮椅、车等等。还有行人走在一些并不是常见的地方也会被认为是异常。（包括有两个角度的拍摄，一个是行人在靠近或者远离摄像头、一个是行人在平行摄像头方向移动。
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20181120153322316.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2tpd2lfRnVuZw==,size_16,color_FFFFFF,t_70)
+![](https://i.loli.net/2019/05/06/5ccfb8b0b0f13.png)
 CUHK  Avenue数据集是学校校园的视频，其中检测的主要是行人的异常动作、错误移动方向、异常物体的出现等。（ICCV2013\16个训练视频、21个测试视频）
 还有一些如subway entry and exit dataset等等ShanghaiTech数据集
 
@@ -87,10 +86,10 @@ CUHK  Avenue数据集是学校校园的视频，其中检测的主要是行人�
 Real-World 数据集
 Traffic 数据集【4】
 【4】中diss了常用的数据集. “ All the anomalous object shave different appearance from the normal pedestrians in the training data thus can be detected from single frame without motion features. ” 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20181120153452163.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2tpd2lfRnVuZw==,size_16,color_FFFFFF,t_70)
+![](https://i.loli.net/2019/05/06/5ccfb8c9be03e.png)
 
 【5】中提出了一个更大的数据集，总长超过128h，1900个真实情景下的监控视频数据集，分为13种异常。论文中采用了有监督的训练方法，默认了WDAD，这个就值得商榷，但是更大更真实的数据集对于视频异常检测而言，是个很重要的帮助。
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20181120154718486.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2tpd2lfRnVuZw==,size_16,color_FFFFFF,t_70)
+![](https://i.loli.net/2019/05/06/5ccfb8dc20e00.png)
 
 一家之言，望大佬们斧正~
 未完待续。
