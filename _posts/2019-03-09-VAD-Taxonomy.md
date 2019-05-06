@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "异常检测概述（二）: 重构方法"
+title:      "异常检测概述（二）: 方法分类"
 subtitle:   "Overview of Anomaly Detection,Part II, Taxonomy： Reconstruction"
 date:       2019-03-09
 author:     "kiwi"
