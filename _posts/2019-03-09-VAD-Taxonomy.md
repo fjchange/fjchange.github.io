@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "异常检测概述（二）: 方法分类"
-subtitle:   "Overview of Anomaly Detection,Part II, Taxonomy： Reconstruction"
+subtitle:   "Overview of Anomaly Detection,Part II, Taxonomy"
 date:       2019-03-09
 author:     "kiwi"
 header-img: "img/post-bg-2015.jpg"
@@ -43,7 +43,7 @@ tags:
 
 - 根据视频的主体的对象，可以分为群体场景（Crowd Scene）和非群体场景（Un-crowd Scene）。
 
-![1553399586892](/home/kiwi/.config/Typora/typora-user-images/1553399586892.png)
+![](https://i.loli.net/2019/05/06/5ccfd50af253d.png)
 
 - 根据视频的异常是定义为狭义的危险、违法犯罪 [7,11]，或是广义的不符合训练集（历史）规律分为real-world，和非real-world（虽然后者一般不会提这点）
 
@@ -68,25 +68,25 @@ Reconstruction，实际上就是对于输入的帧进行降维，通常后续伴
 
 ***常用baseline**
 
-![1552900972347](/home/kiwi/.config/Typora/typora-user-images/1552900972347.png)
+![](https://i.loli.net/2019/05/06/5ccfd51ed6a8c.png)
 
 该文提出了两种方法：一种是基于handcarfted时空的局部特征（HOG+HOF），一种是基于CNN。handcarfted features模型省略不讲。主要讲deeplearning base的模型。
 
-![1553313831670](/home/kiwi/.config/Typora/typora-user-images/1553313831670.png)
+![](https://i.loli.net/2019/05/06/5ccfd52f02c59.png)
 
 CAE网络结构采用的是，以一个sliding windows获取T个连续帧，然后输入到网络进行重构。其中T在采取5,10,20时，T越大收敛越慢，发现异常的能力越强。
 
-![1553344640812](/home/kiwi/.config/Typora/typora-user-images/1553344640812.png)
+![](https://i.loli.net/2019/05/06/5ccfd53e68e9c.png)
 
 另外采用了不同的时间间隔取帧的方法来做数据增强，担心相对小的数据量不能够训练好模型，认为让模型能够对于不同的运动速度的重构能力（这样的速度变化，是否影响模型的表现，持保留意见）
 
 文中的实现结果为：
 
-![1553333416072](/home/kiwi/.config/Typora/typora-user-images/1553333416072.png)
+![](https://i.loli.net/2019/05/06/5ccfd557e54c5.png)
 
 但在[4]中模型对比时，对其复现结果为：
 
-![1553333483261](/home/kiwi/.config/Typora/typora-user-images/1553333483261.png)
+![](https://i.loli.net/2019/05/06/5ccfd5623fbd9.png)
 
 Reconstructed Model应该还有更多的衍生模型，针对此模型的改进与应还有很大的空间。
 
@@ -96,27 +96,27 @@ Reconstructed Model应该还有更多的衍生模型，针对此模型的改进�
 
 Constarctive-AE与Conv-AE的loss很像，对于Weight的loss包括重构损失和隐层表示向量的正则。这种正则让模型尽管在最小化重构损失时，仍然能够保持对输入变化的低敏感度。
 
-![1553344799315](/home/kiwi/.config/Typora/typora-user-images/1553344799315.png)
+![](https://i.loli.net/2019/05/06/5ccfd584de5fe.png)
 
 在只有三层FC的情况下，CUHK avenue中AUC能够达到83%~84%.
 
 ### 2.3 Adversarial-AutoEncoder 
 
-![1553334500207](/home/kiwi/.config/Typora/typora-user-images/1553334500207.png)
+![](https://i.loli.net/2019/05/06/5ccfd5a008c32.png)
 
 AAE的本质是通过GAN的方法，让AutoEncoder的隐层表示向量与p(z)相同。并且在这过程当中，改善了autoencoder的重构损失。让AE的隐层向量符合某种分布，而文中的分布是高斯分布，那么这个做法，实际上跟加了个BN层在中间，似乎差别并不大，有趣的是CAE和AAE中都没有用上BN？why?
 
 没有获得其AUC的结果，但是将对抗引入到异常检测中，后续还有更多的发展。比如GANomaly.
 
-![1553414908271](/home/kiwi/.config/Typora/typora-user-images/1553414908271.png)
+![](https://i.loli.net/2019/05/06/5ccfd5b407aa1.png)
 
 ### 2.4 Denoising AutoEncoder
 
 Denoising-AE是相当老的一篇论文，来自ICML 2008, 本质上就是对于输入的进行mask/noise，然后让模型学习去猜缺失的是什么，从而获得一个更好的数据集表示。
 
-![1553417709958](/home/kiwi/.config/Typora/typora-user-images/1553417709958.png)
+![](https://i.loli.net/2019/05/06/5ccfd5ca0ebd0.png)
 
-![1553417832298](/home/kiwi/.config/Typora/typora-user-images/1553417832298.png)
+![](https://i.loli.net/2019/05/06/5ccfd5d951b8a.png)
 
 在CVPR 2018，此模型在衍生出了对抗学习单分类器。其实本质上是让模型对于数据集的某一种属性（表观结构）overfit，对于不符合数据集规律的个体，应当是错误还原，从而放大错误，得到更好的识别能力。
 
@@ -128,11 +128,11 @@ Denoising-AE是相当老的一篇论文，来自ICML 2008, 本质上就是对于
 
 Cross-Channel Prediction的idea是来自于CVPR 2017的 ”Split-brain autoencoders: Unsupervised learning by cross-channel prediction“。这篇首先提出对于输入的图片划分为多类channel，相当于是多模态的信息，不同模态的相互image transfer。
 
-![1553419954002](/home/kiwi/.config/Typora/typora-user-images/1553419954002.png)
+![](https://i.loli.net/2019/05/06/5ccfd603eeede.png)
 
 虽然名字说是预测，但我更认为，实际上就是跨模态的重构。[14]应用了[13]的思路，将帧切分为光流和实际图像，采用了U-Net作为base model做这两种模态的跨模态重构。这个模型并不是为了让图片生成的真实，而是为了让模型学会在训练集中这两种模态的转换方式。由于真实optical flow和预测产生的之间如果逐像素的比较并没有明显意义，这里采用了imagenet pretrained Alexnet来评价两者的语义差异。只采用了Alexnet前5层，然后语义损失是第5层输出的中两者的差，这两者的差的归一化就是语义差热图。而对于生成的图像，差值的归一化也产生了一个heat map，两者加权就产生了最终的异常热图。
 
-![1553428368580](/home/kiwi/.config/Typora/typora-user-images/1553428368580.png)
+![](https://i.loli.net/2019/05/06/5ccfd60ed7314.png)
 
 对于在UCSD上的[14]这个表现非常好，是我所知道的在UCSD的表现最好的结果，ped1 97.4%, ped2 93.5%.
 
@@ -148,13 +148,13 @@ Cross-Channel Prediction的idea是来自于CVPR 2017的 ”Split-brain autoencod
 
 ### 3.1 Convolutional LSTM based AutoEncoder [10]
 
-![1553353907031](/home/kiwi/.config/Typora/typora-user-images/1553353907031.png)
+![](https://i.loli.net/2019/05/06/5ccfd61e896c9.png)
 
 这是个和Conv-AE很像，CLSTM-AE但是在中间采用了LSTM，为了能够嵌套在CNN中，用上了Conv-LSTM而不是FC-LSTM,保持了空间结构的同时增强了时空信息的能力，相对于Conv-AE，有一定的能力提升，不过后续的复现结果好像并不是很好。
 
 ###  3.2 Composite LSTM Framwork [9]
 
-![1553415700826](/home/kiwi/.config/Typora/typora-user-images/1553415700826.png)
+![](https://i.loli.net/2019/05/06/5ccfd62b04c9c.png)
 
 composite-LSTM在2015 ICML提出之后
 
@@ -182,21 +182,21 @@ composite-LSTM在2015 ICML提出之后
 
 [17]是CVPR2011年的论文，在没有deep model的时候李飞飞老师就提出了解决视频异常事件检测的方法。
 
-![1553501926540](/home/kiwi/.config/Typora/typora-user-images/1553501926540.png)
+![](https://i.loli.net/2019/05/06/5ccfd64f8bda5.png)
 
 **字典学习与稀疏表达**
 
 对于字典学习而言，希望能够通过在给定的小的数据集中学到一个字典，这个字典A，对于每一个输入x，A*$\alpha$能够最小化重构误差，重构出图像x，另外，我们希望得到的表示向量足够的稀疏，对于$\alpha$ 加上了稀疏的限制。稀疏与重构误差存在一定的trade-off。
 
-![1553518251565](/home/kiwi/.config/Typora/typora-user-images/1553518251565.png)
+![](https://i.loli.net/2019/05/06/5ccfd65c12ce2.png)
 
 [17]中的做法是，利用sliding windows把一段视频划分为多个子事件，那么子事件内多个帧可以叠在一起，形成一个小时空方块，每一个方块之间应该存在着*__时空相邻相似，相离不相似__*，那么就应该在上面公式上再加上一个限制。
 
-![1553518711036](/home/kiwi/.config/Typora/typora-user-images/1553518711036.png)
+![](https://i.loli.net/2019/05/06/5ccfd668b524a.png)
 
 由此，对于W，采用了高斯RBF核函数。
 
-![1553518819823](/home/kiwi/.config/Typora/typora-user-images/1553518819823.png)
+![](https://i.loli.net/2019/05/06/5ccfd674b2354.png)
 
 文中很大一部分讲如何在小数据集上初始化字典D，然后online update。online update的时候希望能够让字典对于所有的数据集的重构损失最小，但是在online learning是不能够在接触到历史帧，那么这里的做法是利用$X_t,D_t,D_{t-1}$, 利用了类似SGD优化算法，步数越后，变化越小。
 
@@ -208,31 +208,31 @@ composite-LSTM在2015 ICML提出之后
 
 [18]相对于[17]，后者是基于图片的HOF\HOG切割产生patches，而前者是切分CNN Enocder产生的heat map，而且是对单帧，切分也采用了多个size切分。对于heat map因为经过CNN后局部间特征混淆，已经失去了定位的能力，因此后者抛弃了patches间的距离差异，在[17]基础上将最后一个正则项改了。
 
-![1553517534923](/home/kiwi/.config/Typora/typora-user-images/1553517534923.png)
+![](https://i.loli.net/2019/05/06/5ccfd683c43d6.png)
 
 上式采用了SISTA（Sequential Iterative Soft-Thresholding Algorithm）进行更新，然后把这种算法魔改到stacked-RNN中。
 
-![1553524237016](/home/kiwi/.config/Typora/typora-user-images/1553524237016.png)
+![](https://i.loli.net/2019/05/06/5ccfd694c0d46.png)
 
-![1553524224226](/home/kiwi/.config/Typora/typora-user-images/1553524224226.png)
+![](https://i.loli.net/2019/05/06/5ccfd6a6334a6.png)
 
 如果把Decoder的参数记作 Z， sRNN的参数（就是上式的参数）记为$\theta$ ，那么就可以得到一个和稀疏表达表达式很像的优化目标函数：
 
-![1553524393681](/home/kiwi/.config/Typora/typora-user-images/1553524393681.png)
+![](https://i.loli.net/2019/05/06/5ccfd6b70ce47.png)
 
 ### 6.3 AnomalyNet: An Anomaly Detection Network for Video Surveillance (IEEE TIFS 2019)
 
 今年较新的一篇文章，除了魔改了一个字典学习的优化算法到LSTM中，还提出了两个Motion Fusion Block和Feature Transfer Block，前者提出将视频端压缩到一张图片中，从而运动和表观信息就可以从以往的光流和RGB图变成一个Motion Fusion后的一张图。
 
-![1553567651499](/home/kiwi/.config/Typora/typora-user-images/1553567651499.png)
+![](https://i.loli.net/2019/05/06/5ccfd6c7524c4.png)
 
 #### 6.3.1 Motion Fusion Model (Dynamic Image)
 
 这里使用的是CVPR 2016 的Dynamic Image，这会在7.5中细说，主要是采用了对连续帧的加权组合产生一张静止图片，并以此图反映视频的信息。文中采用了端到端Rank-Pooling近似Rank-SVM。
 
-![1553742620575](/home/kiwi/.config/Typora/typora-user-images/1553742620575.png)
+![](https://i.loli.net/2019/05/06/5ccfd6e1334ca.png)
 
-![1553762422861](/home/kiwi/.config/Typora/typora-user-images/1553762422861.png)
+![](https://i.loli.net/2019/05/06/5ccfd6f4f30e1.png)
 
 ### 6.3.2 Features Transfer Units
 
@@ -270,13 +270,13 @@ HOG/HOF在现在基本没有人用了，作为一种在计算力受限的情形�
 
 经过模型（重构、预测）后得到的结果，求两者距离，然后归一化，得到的就是异常分值，1-就得到了正常分值。
 
-![1553346907147](/home/kiwi/.config/Typora/typora-user-images/1553346907147.png)
+![](https://i.loli.net/2019/05/06/5ccfd714e6ff7.png)
 
 ### 7.2 PSNR
 
 通过模型得到的图片与实际的图片的PSNR值，多用于GAN产生的图片，同样使用时也归一化
 
-![1553347104949](/home/kiwi/.config/Typora/typora-user-images/1553347104949.png)
+![](https://i.loli.net/2019/05/06/5ccfd7205409d.png)
 
 ## 8. Trick
 
