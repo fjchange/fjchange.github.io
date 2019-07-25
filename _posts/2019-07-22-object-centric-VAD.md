@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "CVPR 2019:  物体为中心的自编码器与伪异常的视频异常检测"
-subtitle:   "CVPR 2019: Object-Centric_Auto-Encoders_and_Dummy_Anomalies_for_Abnormal_Event_Detection"
+subtitle:   "CVPR 2019: Object-Centric Auto-Encoders and Dummy Anomalies for Abnormal Event Detection"
 date:       2019-07-22
 author:     "kiwi"
 header-img: "img/post-bg-2015.jpg"
