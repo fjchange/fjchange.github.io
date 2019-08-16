@@ -1,8 +1,7 @@
-
 ---
 layout:     post
 title:      " CVPR 2019 | 基于骨骼点轨迹的规律学习的异常检测"
-subtitle:   "CVPR 2019| Learning Regularity in Skeleton Trajectories for Anomaly Detection in Videos Anomaly Detection"
+subtitle:   " CVPR 2019| Learning Regularity in Skeleton Trajectories for Anomaly Detection in Videos Anomaly Detection"
 date:       2019-08-16
 author:     "kiwi"
 header-img: "img/post-bg-2015.jpg"
