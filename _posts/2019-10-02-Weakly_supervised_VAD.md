@@ -2,7 +2,7 @@
 layout:     post
 title:      " 弱监督视频异常检测"
 subtitle:   " Weakly Supervised VAD"
-date:       2019-08-16
+date:       2019-10-02
 author:     "kiwi"
 header-img: "img/post-bg-2015.jpg"
 catalog: true
