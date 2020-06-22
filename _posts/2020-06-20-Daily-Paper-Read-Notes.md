@@ -1,6 +1,17 @@
-# Daily Paper Read Notes:
-
-## 2020/06/20
+---
+layout:     post
+title:      "2020-06-20: 视频相关文章阅读笔记"
+subtitle:   " 2020-06-20： Video Related Paper Reading Notes"
+date:       2020-06-20
+author:     "kiwi"
+header-img: "img/post-bg-2015.jpg"
+catalog: true
+tags:
+    - study
+    - Video
+    - Action Recognition
+    - Object Detection
+---
 
 ### 1. Would Mega-scale Datasets Further Enhance Spatiotemporal 3D CNNs?
 
