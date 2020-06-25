@@ -1,0 +1,36 @@
+---
+layout:     post
+title:      "CVPR 2020: 时序金字塔网络以动作识别"
+subtitle:   " CVPR 2020： Temporal Pyramid Network for Action Recognitio"
+date:       2020-06-20
+author:     "kiwi"
+header-img: "img/post-bg-2015.jpg"
+catalog: true
+tags:
+    - study
+    - Video
+    - Action Recognition
+    - Object Detection
+---
+# Temporal Pyramid Network for Action Recognition
+
+![](https://i.postimg.cc/bwgrzJ43/screenshot-28.png)
+
+SlowFast 通过两个模型来处理运动节奏快慢，但是两个模型又大又重，能不能一个模型完成呢。这里提出了一个时序金字塔的方法来实现。整体基于TSN来改造，不过应该可以拓展到其他模型。
+
+那么对于金字塔的每一层，都由一个所谓的辅助头“auxiliary head，用来分别预测一个分数，辅助模型收敛，增强语义捕捉能力。
+
+![](https://i.postimg.cc/4NnLSxjC/screenshot-29.png)
+
+然后引入对经过spatial  modulation的特征进行时序缩放，毕竟在原模型里面深度不一样时序维度不一。
+
+接下来就是怎么将金字塔里的特征合在一起。
+
+![](https://i.postimg.cc/fWv7fQbG/screenshot-30.png)
+
+![](https://i.postimg.cc/zvWGprC9/screenshot-31.png)
+
+实验结果说Parallel最好。
+
+![](https://i.postimg.cc/WbC7h6zz/screenshot-32.png)
+
