@@ -29,3 +29,7 @@ tags:
    ![](https://i.postimg.cc/Y23JD7H1/screenshot-27.png)
 
 4. Released Model and Code on [Github](https://github.com/kenshohara/3D-ResNets-PyTorch)
+
+## 2. Large-scale weakly-supervised pre-training for video action recognition, CVPR 2019
+![](https://i.postimg.cc/0y9vLKhY/image.png)
+这里facebook提出了更大的数据集IG-Kinetics-19M. Bigger than bigger.
