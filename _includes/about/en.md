@@ -8,7 +8,9 @@ Hi, I am *@fjchange*(Feng Jia-Chang), a Second-Year Master Student of SYSU (Sun-
 
 ## Publications
 - MIST: Multiple Instance Self-Training Framework for Video Anomaly Detection
+- 
   _**Jia-Chang Feng**, Fa-Ting Hong, Wei-Shi Zheng_
+  
   IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2021
 
 
