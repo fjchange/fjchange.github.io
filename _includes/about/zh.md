@@ -7,7 +7,7 @@ Hey，我是冯嘉昌，一个中大在读研二生。
 
 ## Publications
 - MIST: Multiple Instance Self-Training Framework for Video Anomaly Detection
-- 
+
   _**Jia-Chang Feng**, Fa-Ting Hong, Wei-Shi Zheng_
   
   IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2021
