@@ -41,9 +41,9 @@ Weakly supervised video anomaly detection (WS-VAD) is to distinguish anomalies f
 
 ![](../img/Spatial_More.pdf)
 
-<object data="fjchange.github.io/img/Spatial_More.pdf" type="application/pdf" width="700px" height="700px">
-    <embed src="fjchange.github.io/img/Spatial_More.pdf">
-        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="fjchange.github.io/img/Spatial_More.pdf">Download PDF</a>.</p>
+<object data="http://fjchange.github.io/img/Spatial_More.pdf" type="application/pdf" width="700px" height="700px">
+    <embed src="http://fjchange.github.io/img/Spatial_More.pdf">
+        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="http://fjchange.github.io/img/Spatial_More.pdf">Download PDF</a>.</p>
     </embed>
 </object>
 
