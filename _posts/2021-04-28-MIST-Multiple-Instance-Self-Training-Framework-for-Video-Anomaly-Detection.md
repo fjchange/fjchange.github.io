@@ -31,16 +31,27 @@ Weakly supervised video anomaly detection (WS-VAD) is to distinguish anomalies f
 
 We have deployed extensive experiments on UCF-Crime and ShanghaiTech dataset, and outperforms other methods under the same setting.
 
-<img src="https://i.postimg.cc/54w4tSmh/UCF-results.png" width="800" align=center>
+<img src="https://i.postimg.cc/54w4tSmh/UCF-results.png" width="600" align=center>
 
-![](https://i.postimg.cc/cZRC109v/SHT-results.png)
+<img src="https://i.postimg.cc/cZRC109v/SHT-results.png" width="600" align=center>
+
 
 Comparison with previous encoder-based method [Zhong .et al, CVPR 2019] as below, the left of which are the results of UCF-Crime while the right are those of ShanghaiTech.
-![](https://i.postimg.cc/9QSkVy9z/Zhong-Compare-1.png)
+
+<img src="https://i.postimg.cc/9QSkVy9z/Zhong-Compare-1.png" width="600" align=center>
+
 
 ## Visualization
 
+
+Visualization of the testing results on UCF-Crime (better viewed in color). The red blocks in the graphs are temporal
+ground truths of anomalous events. The orange circle shows the wrongly labeled ground truth, the blue circle indicates the
+wrongly predicted clip, and the red cricle indicates the correctly predicted clip.
+
 ![](https://i.postimg.cc/MpcRkBxs/Score-UCF-v2-1.png)
+
+More spatial anomaly activation maps visualization on UCF-Crime. The left 5 columns of the graphs are the
+successful results while the right 2 columns are the failures. 
 
 ![](https://i.postimg.cc/bYCszvm4/Spatial-More-1.png)
 
