@@ -9,9 +9,8 @@ catalog: true
 tags:
     - CVPR2021
     - VAD
-	- Weakly Supervised
-	- Project Page
-
+    - Weakly Supervised
+    - Project Page
 ---
 
 # MIST: Multiple Instance Self-Training Framework for Video Anomaly Detection
