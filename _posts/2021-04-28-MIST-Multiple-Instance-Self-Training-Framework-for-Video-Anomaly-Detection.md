@@ -4,7 +4,7 @@ title:      "MIST: Multiple Instance Self-Training Framework for Video Anomaly D
 subtitle:   "面向视频异常检测的多示例自训练框架"
 date:       2021-04-28
 author:     "kiwi"
-header-img: "img/anomaly.png"
+header-img: "img/anomaly_re.jpg"
 catalog: true
 tags:
     - CVPR2021
