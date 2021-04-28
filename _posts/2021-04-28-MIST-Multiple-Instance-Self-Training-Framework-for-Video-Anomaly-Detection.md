@@ -29,10 +29,13 @@ Weakly supervised video anomaly detection (WS-VAD) is to distinguish anomalies f
 
 ## Experimental Results
 
-![](https://i.postimg.cc/54w4tSmh/UCF-results.png?dl=1)
+We have deployed extensive experiments on UCF-Crime and ShanghaiTech dataset, and outperforms other methods under the same setting.
+
+![](https://i.postimg.cc/54w4tSmh/UCF-results.png)
 
 ![](https://i.postimg.cc/cZRC109v/SHT-results.png)
 
+Comparison with previous encoder-based method [Zhong .et al, CVPR 2019] as below, the left of which are the results of UCF-Crime while the right are those of ShanghaiTech.
 ![](https://i.postimg.cc/9QSkVy9z/Zhong-Compare-1.png)
 
 ## Visualization
