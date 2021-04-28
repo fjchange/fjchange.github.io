@@ -3,7 +3,7 @@ layout:     post
 title:      "MIST: Multiple Instance Self-Training Framework for Video Anomaly Detection"
 subtitle:   "面向视频异常检测的多示例自训练框架"
 date:       2021-04-28
-author:     "Jia-Chang Feng"
+author:     "kiwi"
 header-img: "img/MIST_structure.pdf"
 catalog: true
 tags:
