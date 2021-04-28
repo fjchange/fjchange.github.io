@@ -55,7 +55,7 @@ successful results while the right 2 columns are the failures.
 
 ![](https://i.postimg.cc/bYCszvm4/Spatial-More-1.png)
 
-<iframe width="560" height="560" src="https://youtu.be/sEcML8ddfH8"  frameborder="0"  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"  allowfullscreen></iframe>
+<iframe width="560" height="560" src="https://youtu.be/sEcML8ddfH8"  frameborder="0"  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"  allowfullscreen>
 
 
 ***```Paper```*** [Download paper here](https://arxiv.org/abs/2104.01633)
