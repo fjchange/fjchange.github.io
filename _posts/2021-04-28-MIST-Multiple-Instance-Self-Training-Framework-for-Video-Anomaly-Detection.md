@@ -41,6 +41,10 @@ Weakly supervised video anomaly detection (WS-VAD) is to distinguish anomalies f
 
 ![](../img/Spatial_More.pdf)
 
+```{r image-ref-for-in-text, echo = FALSE, message=FALSE, fig.align='center', fig.cap='Some cool caption', out.width='0.75\\linewidth', fig.pos='H'}
+knitr::include_graphics("../img/Spatial_More.pdf")
+```
+
 
 <!-- blank line -->
 <figure class="video_container">
