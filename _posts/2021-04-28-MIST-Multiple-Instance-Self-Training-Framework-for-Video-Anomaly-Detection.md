@@ -25,25 +25,25 @@ Recommended citation form:
 
 Weakly supervised video anomaly detection (WS-VAD) is to distinguish anomalies from normal events based on discriminative representations. Most existing works are limited in insufficient video representations. In this work, we develop a multiple instance self-training framework (MIST)to efficiently refine task-specific discriminative representations with only video-level annotations. In particular, MIST is composed of 1) a multiple instance pseudo label generator, which adapts a sparse continuous sampling strategy to produce more reliable clip-level pseudo labels, and 2) a self-guided attention boosted feature encoder that aims to automatically focus on anomalous regions in frames while extracting task-specific representations. Moreover, we adopt a self-training scheme to optimize both components and finally obtain a task-specific feature encoder. Extensive experiments on two public datasets demonstrate the efficacy of our method, and our method performs comparably to or even better than existing supervised and weakly supervised methods, specifically obtaining a frame-level AUC 94.83% on ShanghaiTech.
 
-![](img/MIST_structure.pdf)
+![](../img/MIST_structure.pdf)
 
 ## Experimental Results
 
-![](img/UCF_results.png)
+![](../img/UCF_results.png)
 
-![](img/SHT_results.png)
+![](../img/SHT_results.png)
 
-![](img/Zhong_Compare.pdf)
+![](../img/Zhong_Compare.pdf)
 
 ## Visualization
 
-![](img/Score_UCF_v2.pdf)
+![](../img/Score_UCF_v2.pdf)
 
-![](img/Spatial_More.pdf)
+![](../img/Spatial_More.pdf)
 
 
 
-[![Demo]()](vid/MIST_CVPR21_demo.mp4)
+[](../vid/MIST_CVPR21_demo.mp4)
 
 ***```Paper```*** [Download paper here](https://arxiv.org/abs/2104.01633)
 
