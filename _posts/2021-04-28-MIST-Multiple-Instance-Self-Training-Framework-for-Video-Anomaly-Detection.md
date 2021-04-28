@@ -44,9 +44,12 @@ Weakly supervised video anomaly detection (WS-VAD) is to distinguish anomalies f
 
 <!-- blank line -->
 <figure class="video_container">
-  <iframe src="../vid/MIST_CVPR21_demo.mp4" frameborder="0" allowfullscreen="true"> </iframe>
+  <video controls="true" allowfullscreen="true">
+    <source src="../vid/MIST_CVPR21_demo.mp4" type="video/mp4">
+  </video>
 </figure>
 <!-- blank line -->
+
 
 ***```Paper```*** [Download paper here](https://arxiv.org/abs/2104.01633)
 
