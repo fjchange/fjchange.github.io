@@ -1,10 +1,15 @@
-> 正在调参中
-> 
+
 > 与这世界的美好，终将相遇
 
-Hey，我是冯嘉昌，一个中大在读研二生。
+Hey，我是冯嘉昌，一个中大在读网络空间安全专业二年级研究生。
 
-正在CV大坑里填坑，日常看paper，玄学调参，研究兴趣包括Video、VAD、Sentiment、脸部识别、迁移学习等。
+目前研究方向为视频理解与分析，具体子方向包括视频异常事件检测、视频动作定位、领域适应、视频情感分析。
+
+## Recent
+2021-05-08: 我会在CSIG-Guangdong CVPR 2021 论文预交流在校学术报告会作分享。
+2021-04-01: 一篇关于视频异常检测的论文被CVPR 2021接收.
+2019-09-10: 我开始在中大三年的研究生生涯，在郑伟诗老师的指引下。
+2019-06-28: 我完成了在华工的本科学习.
 
 ## Publications
 - MIST: Multiple Instance Self-Training Framework for Video Anomaly Detection
@@ -13,7 +18,9 @@ Hey，我是冯嘉昌，一个中大在读研二生。
   
   IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2021
   
-    [Paper](https://arxiv.org/abs/2104.01633) [Code] (will be released soon.)
+    [Paper](https://arxiv.org/abs/2104.01633) [Code](https://github.com/fjchange/MIST_VAD)
+    
+    [Project Page](https://kiwi-fung.win/2021/04/28/MIST/)
 
 
 
