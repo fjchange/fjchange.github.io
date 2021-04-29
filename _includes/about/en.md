@@ -1,6 +1,6 @@
 
 
-> All goods are on the way before.
+> All good things are on the way ahead.
 
 
 Hi, I am *@fjchange*(Feng Jia-Chang), a Second-Year Master Student of SYSU (Sun-Yat-Sen University), supervised by Wei-Shi Zheng, focusing on Video Understanding and Analysis. 
