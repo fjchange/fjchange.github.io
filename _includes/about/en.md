@@ -5,6 +5,8 @@
 
 Hi, I am *@fjchange*(Feng Jia-Chang), a Second-Year Master Student of SYSU (Sun-Yat-Sen University), supervised by Wei-Shi Zheng, focusing on Video Understanding and Analysis. 
 
+***Now, I'm looking for a job offer or a PhD position.***
+
 ## Recent
 
 - 2021-05-08: I will give speak on CSIG-Guangdong CVPR Sharing.
