@@ -20,7 +20,7 @@ Hi, I am *@fjchange*(Feng Jia-Chang), a Second-Year Master Student of SYSU (Sun-
   
   IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2021
   
-  [Paper](https://arxiv.org/abs/2104.01633) [Code] (will be released soon.)
+  [Paper](https://arxiv.org/abs/2104.01633) [Code](https://github.com/fjchange/MIST_VAD)
   
   [Project Page](https://kiwi-fung.win/2021/04/28/MIST/)
 
