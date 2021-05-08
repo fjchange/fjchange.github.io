@@ -9,7 +9,7 @@ Hi, I am *@fjchange*(Feng Jia-Chang), a Second-Year Master Student of SYSU (Sun-
 
 ## Recent
 
-- 2021-05-08: I will give speak on CSIG-Guangdong CVPR Sharing.
+- 2021-05-08: I give a speak on CSIG-Guangdong CVPR Sharing [ppt](https://fjchange.github.io/img/广东学术报告会-冯嘉昌-MIST.pdf).
 - 2021-04-01: One paper accepted on CVPR 2021.
 - 2019-09-10: I begin the journey of graduate in Sun Yat-sen University with supervision from Wei-Shi Zheng.
 - 2019-06-28: I finished my undergraduate journey and graduated from South China University of Technology.
