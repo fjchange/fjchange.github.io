@@ -26,4 +26,12 @@ Hi, I am *@fjchange*(Feng Jia-Chang), a Second-Year Master Student of SYSU (Sun-
   
   [Project Page](https://kiwi-fung.win/2021/04/28/MIST/)
 
+- Two papers of Weakly Supervised Temporal Action Localization under reviewed.    
+
+## Blog
+- ZhiHu (write in Chinese)：[Kiwi](https://www.zhihu.com/people/feng-jia-chang), Personal Column [CV上手之路](https://www.zhihu.com/column/cv-newcomers)
+  
+  Have written blog for 3 years, with more than 5,000 followers.
+
+- Contact: [Email Me.](fjchange@hotmail.com)
 
