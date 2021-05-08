@@ -23,6 +23,12 @@ Hey，我是冯嘉昌，一个中大在读网络空间安全专业二年级研�
     [Paper](https://arxiv.org/abs/2104.01633) [Code](https://github.com/fjchange/MIST_VAD)
     
     [Project Page](https://kiwi-fung.win/2021/04/28/MIST/)
+    
+- 两篇关于 Weakly Supervised Temporal Action Localization 在投.    
 
+## Blog
+- 知乎：[Kiwi](https://www.zhihu.com/people/feng-jia-chang), 个人专栏 [CV上手之路](https://www.zhihu.com/column/cv-newcomers)
+  
+  写博客三年，目前关注5k+.
 
-
+- Contact: [Email Me.](fjchange@hotmail.com)
