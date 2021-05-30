@@ -3,7 +3,7 @@
 > All good things are on the way ahead.
 
 
-Hi, I am *@fjchange*(Feng Jia-Chang), a Second-Year Master Student of SYSU (Sun-Yat-Sen University), supervised by Wei-Shi Zheng, focusing on Video Understanding and Analysis. 
+Hi, I am *@fjchange*(Feng Jia-Chang), a Second-Year Master Student of SYSU (Sun-Yat-Sen University), supervised by Wei-Shi Zheng, focusing on Video Understanding and Analysis.  More specifically, I am focusing on Video Anomaly Detection, Video Action Localization, Transfer Learning (Domain Adaptation), Video Affective Analysis.
 
 ***Now, I'm looking for a job offer or a PhD position.***
 
