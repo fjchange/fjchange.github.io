@@ -38,3 +38,4 @@ Hey，我是冯嘉昌，一个中大在读网络空间安全专业二年级研�
   写博客三年，目前关注5k+.
 
 - Contact: [Email Me.](fjchange@hotmail.com)
+- [Google Scholar](https://scholar.google.com/citations?user=C-tYVeQAAAAJ&hl=zh-CN&oi=ao)
