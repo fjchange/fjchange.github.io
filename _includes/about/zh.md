@@ -17,7 +17,7 @@ Hey，我是冯嘉昌，一个中大在读网络空间安全专业二年级研�
 - 2019-09-10: 我开始在中大三年的研究生生涯，在[郑伟诗老师](https://scholar.google.com/citations?user=AwqDDGoAAAAJ&hl=zh-CN&oi=ao)的指导下。
 - 2019-06-28: 我完成了在华工的本科学习.
 - 2018-10-29：我加入了中山大学智能科学与系统实验室（iSEE Lab）
-- 2018-04: 我加入了华南理工大学So-Link实验室，在吕建明老师的指导下。
+- 2018-04: 我加入了华南理工大学So-Link实验室，在[吕建明老师](https://scholar.google.com/citations?user=nnY3bxgAAAAJ&hl=zh-CN&oi=ao)的指导下。
 
 ## Publications
 - MIST: Multiple Instance Self-Training Framework for Video Anomaly Detection
