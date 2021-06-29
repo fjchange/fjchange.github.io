@@ -10,6 +10,7 @@ More specifically, I am focusing on Video Anomaly Detection, Video Action Locali
 ***Now, I'm looking for a job offer or a PhD position.***
 
 ## Recent
+- 2021-06-29: I serve as a reviewer of PRCV 2021.
 - 2021-06-02: I will start my internship in Applied Research Center Lab (ARC Lab), Platform and Content Group (PCG) of Tencent, to do some research on video understanding and analysis, under the supervision of [Shan Ying](https://scholar.google.com/citations?user=4oXBp9UAAAAJ&hl=zh-CN&oi=ao)
 - 2021-05-08: I give a speak on CSIG-Guangdong CVPR Sharing [ppt](https://fjchange.github.io/img/广东学术报告会-冯嘉昌-MIST.pdf).
 - 2021-04-18: One paper about Video Action Localization is submitted on ACM MM 2021.
@@ -40,3 +41,4 @@ More specifically, I am focusing on Video Anomaly Detection, Video Action Locali
 
 - Contact: [Email Me.](fjchange@hotmail.com)
 - [Google Scholar](https://scholar.google.com/citations?user=C-tYVeQAAAAJ&hl=zh-CN&oi=ao)
+- Service: PRCV 2021.
