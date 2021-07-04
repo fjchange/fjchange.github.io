@@ -22,17 +22,21 @@ More specifically, I am focusing on Video Anomaly Detection, Video Action Locali
 - 2018-04: I joined So-Link Lab of south china university of china, under the supervision of [Prof. Jianming Lv](https://scholar.google.com/citations?user=nnY3bxgAAAAJ&hl=zh-CN&oi=ao).
 
 ## Publications
+- Cross-modal Consensus Network for Weakly Supervised Temporal Action Localization.
+
+  Fa-Ting Hong^, **Jia-Chang Feng^**, Dan Xu, Ying Shan, Wei-Shi Zheng __(^ indicates equal contribution)__
+  
+  `ACM International Conference on Multimedia (ACM MM), 2021`
+
 - MIST: Multiple Instance Self-Training Framework for Video Anomaly Detection
 
-  _**Jia-Chang Feng**, Fa-Ting Hong, Wei-Shi Zheng_
+  _Jia-Chang Feng__, Fa-Ting Hong, Wei-Shi Zheng
   
-  IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2021
+  `IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2021`
   
-  [Paper](https://arxiv.org/abs/2104.01633) [Code](https://github.com/fjchange/MIST_VAD)
-  
-  [Project Page](https://kiwi-fung.win/2021/04/28/MIST/)
+    [Paper](https://arxiv.org/abs/2104.01633), [Code](https://github.com/fjchange/MIST_VAD), [Project Page](https://kiwi-fung.win/2021/04/28/MIST/)
 
-- Two papers of Weakly Supervised Temporal Action Localization under reviewed.    
+- One paper of Weakly Supervised Temporal Action Localization under reviewed.    
 
 ## Blog
 - ZhiHu (write in Chinese)：[Kiwi](https://www.zhihu.com/people/feng-jia-chang), Personal Column [CV上手之路](https://www.zhihu.com/column/cv-newcomers)
