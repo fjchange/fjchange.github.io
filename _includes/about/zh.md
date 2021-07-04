@@ -34,9 +34,7 @@ Hey，我是冯嘉昌，一个中大在读网络空间安全专业二年级研�
   
   IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2021
   
-    [Paper](https://arxiv.org/abs/2104.01633) [Code](https://github.com/fjchange/MIST_VAD)
-    
-    [Project Page](https://kiwi-fung.win/2021/04/28/MIST/)
+    [Paper](https://arxiv.org/abs/2104.01633), [Code](https://github.com/fjchange/MIST_VAD), [Project Page](https://kiwi-fung.win/2021/04/28/MIST/)
     
 - 一篇关于 Weakly Supervised Temporal Action Localization 在投.    
 
