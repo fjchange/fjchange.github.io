@@ -24,7 +24,7 @@ Hey，我是冯嘉昌，一个中大在读网络空间安全专业二年级研�
 ## Publications
 - Cross-modal Consensus Network for Weakly Supervised Temporal Action Localization.
 
-  Fa-Ting Hong^, **Jia-Chang Feng^**, Dan Xu, Ying Shan, Wei-Shi Zheng (^ indicates equal contribution)
+  Fa-Ting Hong^, **Jia-Chang Feng^**, Dan Xu, Ying Shan, Wei-Shi Zheng __(^ indicates equal contribution)__
   
   ACM International Conference on Multimedia (ACM MM), 2021.
 
