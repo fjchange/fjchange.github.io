@@ -12,7 +12,7 @@ More specifically, I am focusing on Video Anomaly Detection, Video Action Locali
 ## Recent
 - 2021-07-04: A paper about weakly supervised action localization is accepted on ACM MM 2021.
 - 2021-06-29: I serve as a reviewer of PRCV 2021.
-- 2021-06-02: I will start my internship in Applied Research Center Lab (ARC Lab), Platform and Content Group (PCG) of Tencent, to do some research on video understanding and analysis, under the supervision of [Shan Ying](https://scholar.google.com/citations?user=4oXBp9UAAAAJ&hl=zh-CN&oi=ao)
+- 2021-06-02: I will start my internship in Applied Research Center Lab (ARC Lab), Platform and Content Group (PCG) of Tencent, to do some research on video understanding and analysis, under the supervision of [Ying Shan](https://scholar.google.com/citations?user=4oXBp9UAAAAJ&hl=zh-CN&oi=ao) and [Zhongang Qi](https://scholar.google.com/citations?user=zJvrrusAAAAJ&hl=zh-CN&oi=ao)
 - 2021-05-08: I give a speak on CSIG-Guangdong CVPR Sharing [ppt](https://fjchange.github.io/img/广东学术报告会-冯嘉昌-MIST.pdf).
 - 2021-04-18: One paper about Video Action Localization is submitted on ACM MM 2021.
 - 2021-04-01: One paper about Video Anomaly Detection is accepted on CVPR 2021. [MIST](https://arxiv.org/abs/2104.01633)
