@@ -24,15 +24,15 @@ Hey，我是冯嘉昌，一个中大在读网络空间安全专业二年级研�
 ## Publications
 - Cross-modal Consensus Network for Weakly Supervised Temporal Action Localization.
 
-  `Fa-Ting Hong^, **Jia-Chang Feng^**, Dan Xu, Ying Shan, Wei-Shi Zheng __(^ indicates equal contribution)__`
+  Fa-Ting Hong^, **Jia-Chang Feng^**, Dan Xu, Ying Shan, Wei-Shi Zheng __(^ indicates equal contribution)__
   
-  ACM International Conference on Multimedia (ACM MM), 2021.
+  `ACM International Conference on Multimedia (ACM MM), 2021`
 
 - MIST: Multiple Instance Self-Training Framework for Video Anomaly Detection
 
-  `_Jia-Chang Feng__, Fa-Ting Hong, Wei-Shi Zheng`
+  _Jia-Chang Feng__, Fa-Ting Hong, Wei-Shi Zheng
   
-  IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2021
+  `IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2021`
   
     [Paper](https://arxiv.org/abs/2104.01633), [Code](https://github.com/fjchange/MIST_VAD), [Project Page](https://kiwi-fung.win/2021/04/28/MIST/)
     
