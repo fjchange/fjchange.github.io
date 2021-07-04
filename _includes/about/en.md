@@ -30,7 +30,7 @@ More specifically, I am focusing on Video Anomaly Detection, Video Action Locali
 
 - MIST: Multiple Instance Self-Training Framework for Video Anomaly Detection
 
-  _Jia-Chang Feng__, Fa-Ting Hong, Wei-Shi Zheng
+  __Jia-Chang Feng__, Fa-Ting Hong, Wei-Shi Zheng
   
   `IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2021`
   
