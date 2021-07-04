@@ -8,7 +8,7 @@ Hey，我是冯嘉昌，一个中大在读网络空间安全专业二年级研�
 ***我正在寻找工作机会或PhD的机会***
 
 ## Recent
-- 2021-07-04：一篇关于弱监督动作定位的论文被ACM MM 2021接受。
+- 2021-07-04：一篇关于弱监督动作定位的论文被ACM MM 2021接收。
 - 2021-06-29：我成为PRCV 2021审稿人.
 - 2021-06-02：我将在腾讯公司平台内容事业部（PCG）的应用研究中心（ARC Lab）实习，在[单瀛](https://scholar.google.com/citations?user=4oXBp9UAAAAJ&hl=zh-CN&oi=ao)老师和[祁仲昂](https://scholar.google.com/citations?user=zJvrrusAAAAJ&hl=zh-CN&oi=ao)博士的指导下从事出视频内容理解的研究工作。
 - 2021-05-08: 我会在CSIG-Guangdong CVPR 2021 论文预交流在线学术报告会作分享 [Video](https://www.bilibili.com/video/BV1DN411o7xp?p=11)。
